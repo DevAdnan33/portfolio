@@ -1,0 +1,20 @@
+#changingText{
+    color: #DE3C4B;
+    border-right: 1px solid black;
+    animation: cursoranim 1s linear infinite;
+}
+@keyframes cursoranim {
+    50% {
+      border-right: 1px solid rgba(0, 0, 0, 0);
+    }
+  }
+  .heroSection{
+      background-color: rgb(247, 247, 247);
+      clip-path: ellipse(102% 100% at 50% 0%);
+  }
+.card{
+  border-style: none;
+}
+.image{
+border-radius: 3%;
+}
